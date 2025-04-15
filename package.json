@@ -1,0 +1,23 @@
+{
+  "name": "dashboard-candidatures",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dashboard", "candidatures", "emploi", "nodejs", "express", "mongodb"],
+  "author": "Votre Nom",
+  "license": "ISC",
+  "description": "Dashboard pour gérer et suivre mes candidatures",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
